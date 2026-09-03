@@ -57,6 +57,12 @@ dotnet build VoiceHotkey.csproj -c Release -r win-arm64
 The executable is written below
 `VoiceHotkey/bin/Release/net9.0-windows10.0.22621.0/win-arm64/`.
 
+For the tested ASUS/Snapdragon X2EE machine, the private
+[v0.1.0 release](https://github.com/hotschmoe/VoiceHotkey/releases/tag/v0.1.0)
+contains the exact working ARM64 bundle, models, dependencies, and SC8480XP
+NPU cache. Its SHA-256 is
+`A331E1993B5F05977AD9B9AFFCDF20C3AE18AF6A7496644E40459D4005A31546`.
+
 On first launch, ONNX Runtime compiles the models for the NPU and writes a
 small `*_ctx.onnx` wrapper plus an external `*_ctx_qnn.bin` payload under
 `qnn_cache/`. Later launches load the cache in about a second. External cache
