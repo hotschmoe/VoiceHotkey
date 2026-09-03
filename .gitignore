@@ -1,0 +1,32 @@
+# This directory is also the original development lab. Keep Git deliberately
+# narrow so SDKs, environments, generated models, and build output can never be
+# committed accidentally.
+/*
+
+!/.gitignore
+!/README.md
+!/current_status.md
+!/aihub_compile.py
+!/build_qnn_models.py
+!/convert_whisper.py
+!/encoder_info_v81.json
+!/export_onnx.py
+!/export_onnx_dynamo.py
+!/fix_onnx_int64.py
+!/inspect_slices.py
+!/npu_transcribe.py
+!/ort_smoke_test.py
+!/run_qnn_converter.py
+
+!/VoiceHotkey/
+/VoiceHotkey/*
+!/VoiceHotkey/LogMel.cs
+!/VoiceHotkey/Program.cs
+!/VoiceHotkey/Transcriber.cs
+!/VoiceHotkey/VoiceHotkey.csproj
+!/VoiceHotkey/WhisperTokenizer.cs
+!/VoiceHotkey/tokenizer/
+/VoiceHotkey/tokenizer/*
+!/VoiceHotkey/tokenizer/added_tokens.json
+!/VoiceHotkey/tokenizer/vocab.json
+
