@@ -61,7 +61,7 @@ For the tested ASUS/Snapdragon X2EE machine, the private
 [v0.1.0 release](https://github.com/hotschmoe/VoiceHotkey/releases/tag/v0.1.0)
 contains the exact working ARM64 bundle, models, dependencies, and SC8480XP
 NPU cache. Its SHA-256 is
-`A331E1993B5F05977AD9B9AFFCDF20C3AE18AF6A7496644E40459D4005A31546`.
+`D37F48CC11F0ABB35559A61BB7D0F41E59826F5A9DD0E610C869394A16042B09`.
 
 On first launch, ONNX Runtime compiles the models for the NPU and writes a
 small `*_ctx.onnx` wrapper plus an external `*_ctx_qnn.bin` payload under

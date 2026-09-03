@@ -5,6 +5,7 @@
 
 !/.gitignore
 !/README.md
+!/THIRD_PARTY_NOTICES.md
 !/current_status.md
 !/aihub_compile.py
 !/build_qnn_models.py
@@ -17,6 +18,7 @@
 !/npu_transcribe.py
 !/ort_smoke_test.py
 !/run_qnn_converter.py
+!/sanitize_onnx.py
 
 !/VoiceHotkey/
 /VoiceHotkey/*
@@ -29,4 +31,3 @@
 /VoiceHotkey/tokenizer/*
 !/VoiceHotkey/tokenizer/added_tokens.json
 !/VoiceHotkey/tokenizer/vocab.json
-
